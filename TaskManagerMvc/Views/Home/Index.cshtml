@@ -1,0 +1,66 @@
+﻿@model TaskManagerMvc.Models.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Remove</th>
+            <th scope="col">Description</th>
+            <th scope="col">Start</th>
+            <th scope="col">End</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+        }
+
+        @foreach (var row in Model.tasks)
+        {
+            count++;
+
+            if (row.Important == true)
+            {
+                <tr class="table-danger">
+                    <th scope="row">@count</th>
+                    <td>
+                        <a href="~/Home/Edit/@row.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a href="~/Home/Remove/@row.Id">Remove</a>
+                    </td>
+                    <td>@row.Description</td>
+                    <td>@row.Start</td>
+                    @if (row.AllDay == false)
+                    {
+                        <td>@row.End</td>
+                    }
+                </tr>
+            }
+            if (row.Important == false)
+            {
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>
+                        <a href="~/Home/Edit/@row.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a href="~/Home/Remove/@row.Id">Remove</a>
+                    </td>
+                    <td>@row.Description</td>
+                    <td>@row.Start</td>
+                    @if (row.AllDay == false)
+                    {
+                        <td>@row.End</td>
+                    }
+                </tr>
+            }
+        }
+    </tbody>
+</table>

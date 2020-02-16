@@ -1,0 +1,8 @@
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\bin\Debug\netcoreapp3.1\TaskManagerRepository.deps.json
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\bin\Debug\netcoreapp3.1\TaskManagerRepository.dll
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\bin\Debug\netcoreapp3.1\TaskManagerRepository.pdb
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\obj\Debug\netcoreapp3.1\TaskManagerRepository.csprojAssemblyReference.cache
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\obj\Debug\netcoreapp3.1\TaskManagerRepository.AssemblyInfoInputs.cache
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\obj\Debug\netcoreapp3.1\TaskManagerRepository.AssemblyInfo.cs
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\obj\Debug\netcoreapp3.1\TaskManagerRepository.dll
+C:\Users\macie\source\repos\TaskManager\TaskManagerRepository\obj\Debug\netcoreapp3.1\TaskManagerRepository.pdb
